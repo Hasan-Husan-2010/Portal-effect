@@ -83,3 +83,72 @@ svg {
     width: 0;
     height: 0;
 }
+/* Asosiy umumiy uslublar (o'zgarmaydi) */
+
+/* 📱 Juda kichik ekranlar (380px va undan kichik) */
+@media (max-width: 380px) {
+    .circle {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .circle::before,
+    .circle::after {
+      top: 30px;
+      left: 30px;
+      right: 30px;
+      bottom: 30px;
+      border: 8px solid white;
+    }
+  }
+  
+  /* 📱 Mobil (381px – 600px) */
+  @media (min-width: 381px) and (max-width: 600px) {
+    .circle {
+      width: 250px;
+      height: 250px;
+    }
+  
+    .circle::before,
+    .circle::after {
+      top: 40px;
+      left: 40px;
+      right: 40px;
+      bottom: 40px;
+      border: 10px solid white;
+    }
+  }
+  
+  /* 📲 Planshet (601px – 1024px) */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .circle {
+      width: 400px;
+      height: 400px;
+    }
+  
+    .circle::before,
+    .circle::after {
+      top: 70px;
+      left: 70px;
+      right: 70px;
+      bottom: 70px;
+      border: 15px solid white;
+    }
+  }
+  
+  /* 💻 Katta ekranlar (1025px dan katta) */
+  @media (min-width: 1025px) {
+    .circle {
+      width: 600px;
+      height: 600px;
+    }
+  
+    .circle::before,
+    .circle::after {
+      top: 100px;
+      left: 100px;
+      right: 100px;
+      bottom: 100px;
+      border: 20px solid white;
+    }
+  }  
