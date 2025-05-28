@@ -91,7 +91,9 @@ svg {
       width: 180px;
       height: 180px;
     }
-  
+    .c2 {
+      display: none;
+    }
     .circle::before,
     .circle::after {
       top: 30px;
@@ -108,7 +110,9 @@ svg {
       width: 250px;
       height: 250px;
     }
-  
+    .c2 {
+      display: none;
+    }
     .circle::before,
     .circle::after {
       top: 40px;
